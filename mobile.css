@@ -1,6 +1,6 @@
 body {
     background-color: rgb(239, 245, 240);
-    font-family: arvo;
+    font-family: "courier new body copy", sans-serif;
     margin: 0px;
     padding: 0px;   
 }
@@ -12,11 +12,12 @@ body {
     margin: 10px auto 10px auto;
     font-size: 25px; 
     color: white;
-    letter-spacing: 10px;    
+    letter-spacing: 10px; 
+       
 }
 .line {
     border-left: 6px solid  #3C948B;
-    height: 4175px;
+    height: 4050px;
     position: relative;
     left: 50%;
     margin-left: -3px;
@@ -66,6 +67,7 @@ body {
 .columns-small h2 {
     color: #3C948B;
     margin: auto;
+    font-weight: bolder;
 }
 .columns-blank {
     width: 450px;
