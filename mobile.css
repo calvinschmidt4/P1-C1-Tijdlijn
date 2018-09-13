@@ -16,7 +16,7 @@ body {
 }
 .line {
     border-left: 6px solid  #3C948B;
-    height: 3940px;
+    height: 4175px;
     position: relative;
     left: 50%;
     margin-left: -3px;
@@ -38,14 +38,11 @@ body {
     background-color:white;    
     margin-bottom: 100px;    
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.288);
-    border-radius: 0px 0px 20px 20px;
-    
+    border-radius: 0px 0px 20px 20px;    
 }
 .columns img {
     width: 450px;
     height: 254px;   
-     
-    
 }
 .columns h2{
     text-align: center;       
@@ -101,6 +98,9 @@ body {
         max-width: 900px;
         flex-direction: column;
         align-items: center;
+    }
+    .line {        
+        height: 3600px;       
     }
 }
 
@@ -163,6 +163,6 @@ body {
         align-items: center;
     }
     .line {        
-        height: 4100px;       
+        height: 4200px;       
     }
 }
