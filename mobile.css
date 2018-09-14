@@ -16,7 +16,6 @@ body {
     letter-spacing: 10px; 
     box-sizing: border-box;       
 }
-
 .columns-first-container {    
     max-width: 1200px;
     margin: 5% auto 0px auto;
@@ -35,17 +34,11 @@ body {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.288);
     border-radius: 0px 0px 20px 20px;   
     box-sizing: border-box; 
-    
-    
 }
 .columns img {
     width: 100%;
-    height: auto;  
-     
+    height: auto;       
 }
-
-
-
 .columns h2{
     text-align: center;       
     padding: 0px;
@@ -74,8 +67,8 @@ body {
 }
 .line {
     border-left: 6px solid  #3C948B;
-    height: 4050px;
-    position: relative;
+    height: 5100px;
+    position: absolute;
     left: 50%;
     margin-left: -3px;
     z-index: -5;
@@ -100,32 +93,27 @@ body {
     .columns-small {
         order: 1;
     }
+    .line {
+        height: 4400px;         
+    }
     .columns {
         width: 95%;       
         order: 2;     
-        padding-bottom: 0px;
-        
+        padding-bottom: 0px;       
     }
     .columns img {
         width: 50%;
         height: auto;      
-        float: left;  
-              
+        float: left;        
     }
-
     .columns p, .columns h2 {
         overflow: hidden;
-    }
-
-    
-
+    } 
     .columns-first-container {        
         flex-direction: column;
         align-items: center;
     }
-    .line {        
-        height: 3600px;       
-    }
+    
 }
 
 @media only screen and (max-width: 899px) and (min-width: 600px) {
@@ -140,16 +128,27 @@ body {
         height: 0px;
         margin: 0px;
     }   
-    .columns-small {  
-            
+    .columns-small {              
         order: 1;
+    }
+    .line {
+        width: 0px;
+        height: 0px;               
+    }
+    .line-second {        
+        border-left: 6px solid  #3C948B;
+        height: 4850px;
+        position: absolute;
+        left: 12.5%;
+        margin-left: -3px;
+        z-index: -5;
+        box-sizing: border-box;         
     }
     .columns {
         width: 60%;        
         order: 2;
     }    
-    .columns-first-container {
-        
+    .columns-first-container {        
         align-items: flex-start;
     }
 }
@@ -170,13 +169,15 @@ body {
         width: 20%;
         order: 1;
     }
+    .line {
+        height: 4700px;
+    }
     .columns {   
         width: 80%;
         order: 2;
     }
     .columns img {
-        width: 100%;
-                      
+        width: 100%;                      
     }
     .columns h2 {
         font-size: 15px;
@@ -188,7 +189,5 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    .line {        
-        height: 4200px;       
-    }
+    
 }
